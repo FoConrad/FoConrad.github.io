@@ -1,10 +1,34 @@
 ---
 layout: page
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: Conrad Christensen
+subtitle: My homepage to the web
 use-site-title: true
 ---
+<p> For information about myself, checkout <a href="conrad_christensen_cv.pdf"> my resume </a>, the research and projects I have linked, or the <a href="aboutme"> about me </a> tab. </p>
 
+
+<pre class="clock" id="clock_date"></pre>
+<pre class="clock" id=clock_time></pre>
+
+    <script>
+        window.setInterval(function() {
+            var date_str = Date().toLocaleString().split(" ")
+                .slice(0, 3).join(" ");
+            var time_str = new Date().toLocaleString().split(" ")
+                .splice(1, 2).join(" ");
+            $("#clock_date").figlet(date_str);
+            $("#clock_time").figlet(time_str);
+        }, 100);
+    </script>
+
+<form method="get" action="http://www.google.com/search" target="_blank">
+    <input type="submit" style="position: absolute; left: -9999px"/>
+    <input class="search_box" id="search1" type="text" name="as_epq" maxlength="1000" 
+        placeholder="Lang/tool" />
+    <input class="search_box" id="search2" type="text" name="as_q" placeholder="Search phrase" />
+</form>
+
+<img id='scrolling_code' alt='' src="img/vim_screen.gif">
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">

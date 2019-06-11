@@ -6,6 +6,43 @@ layout: null
 
 /* --- General --- */
 
+.clock {
+    display: block;
+    border: 0px;
+    background-color: inherit;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0;
+    /* To preset height before text arrives */
+    height: 108px;
+}
+
+.search_box {
+    box-shadow: 0px 2px 3px #555;
+    background-color: #fffcf2;
+    border: 0px;
+    height: 40px;
+    padding: 3px 0px 3px 10px;
+}
+
+#search1 {
+    width: 23%;
+}
+
+#search2 {
+    width: 75%;
+    float: right;
+}
+
+#scrolling_code {
+    padding-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
@@ -523,7 +560,7 @@ footer .theme-by {
     padding: 150px 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
   .intro-header .post-heading h1 {
     font-size: 50px;

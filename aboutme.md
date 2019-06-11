@@ -1,16 +1,37 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Enough information to be my best friend
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Since switching majors my second year of undergrad, Computer Science
+has been my main passion. My interests span the topics of Big Data and
+Distributed Systems to Machine Learning (specifically reinforcement learning),
+to Algorithms and Computational Complexity.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Currently, I am living in Jersey City, NJ, but for work and recreation I go
+into NYC. I grew up in Minnesota, but was born in New Zealand (and I hold citizenshipt
+there as well).
 
-What else do you need?
+My hobbies include
+- Reading (anything from classics, non-fiction, and cartoons). Some recent books I enjoyed:
+    - The Mole People: Life in the Tunnels Beneath New York City. Jennifer Toth
+    - Logicomix: An epic search for truth. Apostolos Doxiadis and Christos Papadimitriou
+    - Bagombo Snuff Box (short stories). Kurt Vonnegut
+- Playing soccer
+- Hiking (which was better while in CO, but there is still some hiking in NY)
+- Biking (another hobby I've had trouble with in NYC, albeit it's just fear that's held me back)
+- Downhill skiing. I have skied at
+    - Minnesota (where I learned): Wealsh village, buck Hill, Lutson
+    - Idaho: Sun Valley
+    - Vermont: Stowe
+    - Italy: Courmayeur, La Thuile
 
-### my history
+And finally my tax to the internet: a picture of a wonderful cat I had the pleasure to 
+look after.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+![Lexi](./img/lexi.jpg)
+
+
+
+That's about all I'd like to say on the matter.
