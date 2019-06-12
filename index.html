@@ -47,6 +47,12 @@ use-site-title: true
             $('#search_write').on('input', function() {
                 $('#search_fill').val($('#search_write').val());
             });
+            $('.search_box').keypress(function(e) {
+                if (e.which == 13) { // 13 is Enter
+                    $('#form_search').submit();
+                    return false;
+                }
+            });
         });
     </script>
     </script>
