@@ -9,8 +9,8 @@ has been my main passion. My interests span the topics of Big Data and
 Distributed Systems to Machine Learning (specifically reinforcement learning),
 to Algorithms and Computational Complexity.
 
-Currently, I am living in Jersey City, NJ, but for work and recreation I go
-into NYC. I grew up in Minnesota, but was born in New Zealand (which gives me
+My favorite activity in New York City is exploring, and looking for new restaurants.
+I grew up in Minnesota, but was born in New Zealand (which gives me
 dual US/NZ citizenship!).
 
 My hobbies include
