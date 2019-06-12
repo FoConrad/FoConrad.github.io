@@ -25,13 +25,11 @@ use-site-title: true
 
             // Adjust width and height for small screens
             var width = Math.min($(window).width(), $('#clock_date').width());
-            if (width < 500) {
-                var fs = 12 - Math.floor((500 - width)/25);
-                $('.clock').css({
-                    'font-size': fs + 'px',
-                    'height': (fs*9) + 'px',
-                });
-            }
+            var fs = Math.min(12, 12 - Math.floor((500 - width)/25));
+            $('.clock').css({
+                'font-size': fs + 'px',
+                'height': (fs*9) + 'px',
+            });
         }, 100);
     </script>
 
