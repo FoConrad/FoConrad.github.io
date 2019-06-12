@@ -25,13 +25,15 @@ layout: null
     border: 0px;
     height: 40px;
     padding: 3px 0px 3px 10px;
+    width: 100%;
 }
 
-#search1 {
+#form_tool {
     width: 23%;
+    float: left;
 }
 
-#search2 {
+#form_search {
     width: 75%;
     float: right;
 }

@@ -31,13 +31,37 @@ use-site-title: true
                 'height': (fs*9) + 'px',
             });
         }, 100);
+        // So we can postpone jQuery code until it is loaded
+        var wait = function(func) {
+            if (window.jQuery)
+                func();
+            else
+                setTimeout(function() { wait(func) }, 10);
+        };
+        wait(function(){
+            // Keep hidden elements of each form up to date with contents of
+            // other form
+            $('#tool_write').on('input', function() {
+                $('#tool_fill').val($('#tool_write').val());
+            });
+            $('#search_write').on('input', function() {
+                $('#search_fill').val($('#search_write').val());
+            });
+        });
+    </script>
     </script>
 
-<form method="get" action="http://www.google.com/search" target="_blank">
-    <input type="submit" style="position: absolute; left: -9999px"/>
-    <input class="search_box" id="search1" type="text" name="as_epq" maxlength="1000" 
-        placeholder="Lang/tool" />
-    <input class="search_box" id="search2" type="text" name="as_q" placeholder="Search phrase" />
+<form id="form_tool" method="get" action="http://www.google.com/search" target="_blank">
+    <input id="search_fill" type="hidden" name="as_q" value=""> 
+    <input id="tool_write" class="search_box" type="text" name="as_epq" 
+        maxlength="1000" placeholder="Lang" />
+</form>
+
+
+<form id="form_search" method="get" action="http://www.google.com/search" target="_blank">
+    <input id="tool_fill" type="hidden" name="as_epq" value=""> 
+    <input id="search_write" class="search_box" type="text" name="as_q" 
+        placeholder="Search phrase" />
 </form>
 
 <img id='scrolling_code' alt='' src="img/vim_screen.gif">
