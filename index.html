@@ -12,12 +12,23 @@ use-site-title: true
 
     <script>
         window.setInterval(function() {
+            if (typeof $ == 'undefined') return;
             var date_str = Date().toLocaleString().split(" ")
                 .slice(0, 3).join(" ");
             var time_str = new Date().toLocaleString().split(" ")
                 .splice(1, 2).join(" ");
             $("#clock_date").figlet(date_str);
             $("#clock_time").figlet(time_str);
+
+            // Adjust width and height for small screens
+            var width = Math.min($(window).width(), $('#clock_date').width());
+            if (width < 500) {
+                var fs = 12 - Math.floor((500 - width)/25);
+                $('.clock').css({
+                    'font-size': fs + 'px',
+                    'height': (fs*9) + 'px',
+                });
+            }
         }, 100);
     </script>
 
