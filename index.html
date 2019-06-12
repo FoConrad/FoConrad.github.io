@@ -12,7 +12,10 @@ use-site-title: true
 
     <script>
         window.setInterval(function() {
+            // jQuery does not load right away
             if (typeof $ == 'undefined') return;
+
+            // Date strs on top of eachother
             var date_str = Date().toLocaleString().split(" ")
                 .slice(0, 3).join(" ");
             var time_str = new Date().toLocaleString().split(" ")
