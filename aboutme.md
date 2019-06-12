@@ -10,8 +10,8 @@ Distributed Systems to Machine Learning (specifically reinforcement learning),
 to Algorithms and Computational Complexity.
 
 Currently, I am living in Jersey City, NJ, but for work and recreation I go
-into NYC. I grew up in Minnesota, but was born in New Zealand (and I hold citizenship
-there as well).
+into NYC. I grew up in Minnesota, but was born in New Zealand (which gives me
+dual US/NZ citizenship!).
 
 My hobbies include
 - Reading (anything from classics, non-fiction, and cartoons). Some recent books I enjoyed:
