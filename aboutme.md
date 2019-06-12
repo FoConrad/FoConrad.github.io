@@ -10,7 +10,7 @@ Distributed Systems to Machine Learning (specifically reinforcement learning),
 to Algorithms and Computational Complexity.
 
 Currently, I am living in Jersey City, NJ, but for work and recreation I go
-into NYC. I grew up in Minnesota, but was born in New Zealand (and I hold citizenshipt
+into NYC. I grew up in Minnesota, but was born in New Zealand (and I hold citizenship
 there as well).
 
 My hobbies include
@@ -22,7 +22,7 @@ My hobbies include
 - Hiking (which was better while in CO, but there is still some hiking in NY)
 - Biking (another hobby I've had trouble with in NYC, albeit it's just fear that's held me back)
 - Downhill skiing. I have skied at
-    - Minnesota (where I learned): Wealsh village, buck Hill, Lutson
+    - Minnesota (where I learned): Welch Village, Buck Hill, Lutsen
     - Idaho: Sun Valley
     - Vermont: Stowe
     - Italy: Courmayeur, La Thuile
