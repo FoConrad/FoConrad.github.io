@@ -4,10 +4,10 @@ title: Projects
 subtitle: Coding projects I have written or contributed to
 ---
 
-### Password manager: `pc_man`
+### Password manager: [`pw_man`](https://github.com/FoConrad/pw_man)
 Due to the vast number of passwords I need for websites and an aversion
 to storing them with the browser or a password manager I have not written, 
-I created [pc_man](https://github.com/FoConrad/pw_man).
+I created [pw_man](https://github.com/FoConrad/pw_man).
 
 This is a password manager written in a single bash file. It works for Mac 
 and Linux, with only `gpg`, and either `pbcopy` or `xclip` as dependencies. It 
