@@ -4,6 +4,30 @@ title: Projects
 subtitle: Coding projects I have written or contributed to
 ---
 
+#### Contents
+- <a href="#ppo-for-mxner">PPO for MXNet</a>
+- <a href="#password-manager-pw_man">Password manager</a>
+- <a href="#backpropagation-through-an-rnn-hash-function">Backpropagating through an RNN hash function</a>
+
+### [PPO](https://openai.com/blog/openai-baselines-ppo/) for [MXNet](https://mxnet.apache.org)
+[Proximal Policy Optimization](https://openai.com/blog/openai-baselines-ppo/), or PPO,
+is a policy gradient method in the field of reinforcement learning. The main 
+implementation for it is provided in the [OpenAI Baselines](https://github.com/openai/baselines) repository, which uses the [TensorFlow](https://www.tensorflow.org/) machine learning
+library. Due to the need for this algorithm in a research project (actually, multiple) I was involved in, I rewrote this for
+MXNet (the implementation of PPO in MXNet was primarily one of my contributions, but others mentioned in the repository helped as well).
+
+Our code for PPO in MXNet can be found [here](https://github.com/FoConrad/PPO-MxNet). 
+Additionally, I have added code to train the CartPole problem provided by
+[OpenAI Gym](https://gym.openai.com/). This trains in an embarrassingly few number of
+iterations, and the trained model is shown balancing the pole below (with some
+random actions thrown in to make its job harder!).
+
+
+![Cartpole](cartpole.gif)
+
+
+
+
 ### Password manager: [`pw_man`](https://github.com/FoConrad/pw_man)
 Due to the vast number of passwords I need for websites and an aversion
 to storing them with the browser or a password manager I have not written, 
