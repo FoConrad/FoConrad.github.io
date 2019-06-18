@@ -23,9 +23,7 @@ iterations, and the trained model is shown balancing the pole below (with some
 random actions thrown in to make its job harder!).
 
 
-![Cartpole](cartpole.gif)
-
-
+<img src='/img/cartpole.gif' class='center-img' alt='CartPole'>
 
 
 ### Password manager: [`pw_man`](https://github.com/FoConrad/pw_man)

@@ -37,6 +37,12 @@ layout: null
     width: 100%;
 }
 
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #form_tool {
     width: 23%;
     float: left;
@@ -49,9 +55,6 @@ layout: null
 
 #scrolling_code {
     padding-top: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 body {

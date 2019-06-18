@@ -30,7 +30,7 @@ My hobbies include
 And finally my tax to the internet: a picture of a wonderful cat I had the pleasure to 
 look after.
 
-![Lexi](./img/lexi.jpg)
+![Lexi](/img/lexi.jpg)
 
 
 
