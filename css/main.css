@@ -15,6 +15,10 @@ layout: null
     margin-left: 3em;
 }
 
+#index_subtitle {
+    color: #657b83;
+}
+
 .cpp_class {
     color: #859900;
 }
