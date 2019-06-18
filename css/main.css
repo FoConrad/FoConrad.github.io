@@ -15,6 +15,14 @@ layout: null
     margin-left: 3em;
 }
 
+.cpp_class {
+    color: #859900;
+}
+
+.cpp_keyword {
+    color: #b58900;
+}
+
 .clock {
     display: block;
     border: 0px;
