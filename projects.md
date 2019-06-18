@@ -103,7 +103,7 @@ wait(function() {
 </script>
 
 #### Contents
-- <a class="scroll" href="#ppo-for-mxner">PPO for MXNet</a>
+- <a class="scroll" href="#ppo-for-mxnet">PPO for MXNet</a>
 - <a class="scroll" href="#password-manager-pw_man">Password manager</a>
 - <a class="scroll" href="#backpropagation-through-an-rnn-hash-function">Backpropagating through an RNN hash function</a>
 

@@ -12,52 +12,51 @@ use-site-title: true
 <pre class="clock" id="clock_date"></pre>
 <pre class="clock" id=clock_time></pre>
 
-    <script>
-        window.setInterval(function() {
-            // jQuery does not load right away
-            if (typeof $ == 'undefined') return;
+<script>
+    window.setInterval(function() {
+        // jQuery does not load right away
+        if (typeof $ == 'undefined') return;
 
-            // Date strs on top of eachother
-            var date_str = Date().toLocaleString().split(" ")
-                .slice(0, 3).join(" ");
-            var time_str = new Date().toLocaleString().split(" ")
-                .splice(1, 2).join(" ");
-            $("#clock_date").figlet(date_str);
-            $("#clock_time").figlet(time_str);
+        // Date strs on top of eachother
+        var date_str = Date().toLocaleString().split(" ")
+            .slice(0, 3).join(" ");
+        var time_str = new Date().toLocaleString().split(" ")
+            .splice(1, 2).join(" ");
+        $("#clock_date").figlet(date_str);
+        $("#clock_time").figlet(time_str);
 
-            // Adjust width and height for small screens
-            var width = Math.min($(window).width(), $('#clock_date').width());
-            var fs = Math.min(12, 12 - Math.floor((500 - width)/25));
-            $('.clock').css({
-                'font-size': fs + 'px',
-                'height': (fs*9) + 'px',
-            });
-        }, 100);
-        // So we can postpone jQuery code until it is loaded
-        var wait = function(func) {
-            if (window.jQuery)
-                func();
-            else
-                setTimeout(function() { wait(func) }, 10);
-        };
-        wait(function(){
-            // Keep hidden elements of each form up to date with contents of
-            // other form
-            $('#tool_write').on('input', function() {
-                $('#tool_fill').val($('#tool_write').val());
-            });
-            $('#search_write').on('input', function() {
-                $('#search_fill').val($('#search_write').val());
-            });
-            $('.search_box').keypress(function(e) {
-                if (e.which == 13) { // 13 is Enter
-                    $('#form_search').submit();
-                    return false;
-                }
-            });
+        // Adjust width and height for small screens
+        var width = Math.min($(window).width(), $('#clock_date').width());
+        var fs = Math.min(12, 12 - Math.floor((500 - width)/25));
+        $('.clock').css({
+            'font-size': fs + 'px',
+            'height': (fs*9) + 'px',
         });
-    </script>
-    </script>
+    }, 100);
+    // So we can postpone jQuery code until it is loaded
+    var wait = function(func) {
+        if (window.jQuery)
+            func();
+        else
+            setTimeout(function() { wait(func) }, 10);
+    };
+    wait(function(){
+        // Keep hidden elements of each form up to date with contents of
+        // other form
+        $('#tool_write').on('input', function() {
+            $('#tool_fill').val($('#tool_write').val());
+        });
+        $('#search_write').on('input', function() {
+            $('#search_fill').val($('#search_write').val());
+        });
+        $('.search_box').keypress(function(e) {
+            if (e.which == 13) { // 13 is Enter
+                $('#form_search').submit();
+                return false;
+            }
+        });
+    });
+</script>
 
 <form id="form_tool" method="get" action="https://www.google.com/search" target="_blank">
     <input id="search_fill" type="hidden" name="as_q" value=""> 
