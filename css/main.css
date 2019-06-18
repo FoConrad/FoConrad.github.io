@@ -6,6 +6,15 @@ layout: null
 
 /* --- General --- */
 
+#index_subtitle {
+    display: inline-block;
+    text-align: left;
+}
+
+.margin-tab {
+    margin-left: 3em;
+}
+
 .clock {
     display: block;
     border: 0px;
