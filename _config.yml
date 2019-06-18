@@ -75,13 +75,12 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: false
   email: "conradbchristensen@gmail.com"
-  #facebook: daattali
+  linkedin: conrad-christensen-556689189
   github: FoConrad
+  #facebook: daattali
   #twitter: daattali
 #  reddit: yourname
-#  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
