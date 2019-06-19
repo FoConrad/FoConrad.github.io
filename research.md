@@ -133,7 +133,7 @@ exploration even from the field (the tool can be seen below).
 Due to my contributions to the project, I was selected to travel to Washington
 D.C. and present our work at the Department of Homeland Security 
 Science & Technology Hill Day 2016, on Capital Hill. An image of our stand
-with the program directory Dr. Michelle Colby, my colleague Ryan Stern, and myself can be seen
+with the program director Dr. Michelle Colby, my colleague Ryan Stern, and myself can be seen
 below (in that order, from left to right).
 
 ![DHS Day](/img/dhsday.jpg)
